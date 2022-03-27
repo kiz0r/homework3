@@ -1,0 +1,165 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+	background: rgba(78,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(78,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(78,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4ec0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 100px;
+	color: #fff	;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.02em;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 52px;
+}
+
+.offer {
+	margin-top: 90px;
+}
+
+.title {
+	font-size: 39px;
+	width: 570px;
+	margin-bottom: 40px;
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.intro {
+	margin-bottom: 43px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 1.6em;
+	width: 402px;
+}
+
+.travel {
+	padding-bottom: 150px;
+}
+
+.btn {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+	background: #ffd429;
+	text-decoration: none;
+	color: #000;
+	font-weight: bold;
+	padding: 19px 0px;
+	display: block;
+	width: 225px;
+	text-align: center;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #e8bc10;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 100px;
+}
+
+.skill {
+	width: 280px;
+	background: url(img1.png) no-repeat center top;
+}
+
+.skill-trips {
+	background: url(img2.png) no-repeat center top;
+}
+
+.skill-values {
+	background: url(img3.png) no-repeat center top;
+}
+
+.skill-title {
+	text-align: center;
+	padding-top: 100px;
+}
+
+.skill-text {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.section-title,
+.form-of-order {
+	padding-top: 100px;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 65px;
+}
+
+.form {
+	background: #ecf2f8;
+	padding-bottom: 100px;
+}
+
+.form-of-order {
+	width: 508px;
+	margin-left: 340px;
+	margin-right: 330px;
+	letter-spacing: 0.05em;
+}
+
+.form-feeling {
+	width: 345px;
+	display: block;	
+	margin-left: 415px;
+	margin-right: 415px;
+}
+
+.form-feeling input {
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 15px;
+	height: 50px;
+	width: 315px;
+	margin-bottom: 20px;
+	padding-left: 25px;
+}	
+
+.form-btn{
+	width: 345px;
+	text-align: center;
+}
+
+.footer {
+	color: #fff;
+	background: #164d7a;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.footer p {
+	width: 355px;
+	margin-left: 410px;
+	margin-right: 410px;
+}
